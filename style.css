@@ -20,11 +20,13 @@ a {
     text-align: center;
     align-items: center;
 }
+/* backgroud white  */
 .container section {
     width: 1100px;
     padding: 1.5rem 3rem;
     background-color: rgba(255, 255, 255, 0.856);
 }
+/* header */
 .container section header {
     display: flex;
     flex-direction: row;
@@ -40,6 +42,7 @@ a {
     justify-content: space-between;
     color: rgb(187, 187, 187);
 }
+/* sing in */
 .container section h2{
     font-size: 5rem;
     font-weight: normal;
@@ -51,6 +54,7 @@ a {
     width: 280px;
     margin: 0rem auto;
 }
+/* form */
 .container section form {
     flex-direction: column;
     align-items: center;
@@ -84,6 +88,7 @@ a {
 .container section form button a {
     color: white;
 }
+/* footer */
 footer {
     flex-direction: row;
     display: flex;
