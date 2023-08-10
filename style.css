@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
 }
+
 .flex {
     display: flex;
 }
+
 .container {
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,46 +23,54 @@ a {
     text-align: center;
     align-items: center;
 }
+
 /* backgroud white  */
 .container section {
     width: 1100px;
     padding: 1.5rem 3rem;
     background-color: rgba(255, 255, 255, 0.856);
 }
+
 /* header */
 .container section header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .container section header h1 {
     font-weight: normal;
     color: rgb(75, 97, 147);
 }
+
 .container section header .header_text {
     flex-direction: row;
     width: 130px;
     justify-content: space-between;
     color: rgb(187, 187, 187);
 }
+
 /* sing in */
-.container section h2{
+.container section h2 {
     font-size: 5rem;
     font-weight: normal;
     color: rgb(27, 60, 141);
     margin: 3rem 0 1rem 0;
 }
+
 .container section h4 {
     color: rgb(187, 187, 187);
     width: 280px;
     margin: 0rem auto;
 }
+
 /* form */
 .container section form {
     flex-direction: column;
     align-items: center;
     margin: 7rem 0 2rem 0;
 }
+
 .container section form input {
     outline: none;
     padding: 5px;
@@ -69,25 +80,31 @@ a {
     color: palevioletred;
     border-bottom: 1px rgb(240, 240, 240) solid;
 }
+
 .container section form input:focus {
-    border-bottom: palevioletred solid 1px ;
+    border-bottom: palevioletred solid 1px;
 }
+
 .container section form label {
     margin: -1.5rem 0 2rem 0;
 }
+
 .container section form label a {
     color: rgb(168, 168, 168);
     font-size: 0.7rem;
 }
-.container section form button{
+
+.container section form button {
     background-color: palevioletred;
     padding: 10px 20px;
     border: none;
     border-radius: 2px;
 }
+
 .container section form button a {
     color: white;
 }
+
 /* footer */
 footer {
     flex-direction: row;
@@ -96,6 +113,7 @@ footer {
     width: 300px;
     justify-content: space-between;
 }
+
 footer a {
     color: rgb(168, 168, 168);
 }
