@@ -84,3 +84,13 @@ a {
 .container section form button a {
     color: white;
 }
+footer {
+    flex-direction: row;
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    justify-content: space-between;
+}
+footer a {
+    color: rgb(168, 168, 168);
+}
