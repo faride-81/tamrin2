@@ -77,12 +77,12 @@ a {
     border-width: 0;
     background-color: unset;
     margin-top: 2rem;
-    color: palevioletred;
+    color:   rgb(75, 97, 147);
     border-bottom: 1px rgb(240, 240, 240) solid;
 }
 
 .container section form input:focus {
-    border-bottom: palevioletred solid 1px;
+    border-bottom: rgb(61, 69, 76) solid 1px;
 }
 
 .container section form label {
@@ -95,7 +95,7 @@ a {
 }
 
 .container section form button {
-    background-color: palevioletred;
+    background-color: rgb(61, 69, 76);
     padding: 10px 20px;
     border: none;
     border-radius: 2px;
