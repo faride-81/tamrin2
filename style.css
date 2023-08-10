@@ -41,20 +41,21 @@ a {
     color: rgb(187, 187, 187);
 }
 .container section h2{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: normal;
     color: rgb(27, 60, 141);
-    margin: 3rem 0 1rem 0;
+    margin: 0 0 0.25rem 0;
 }
 .container section h4 {
     color: rgb(187, 187, 187);
-    width: 280px;
+    width: 200px;
+    font-size: 11px;
     margin: 0rem auto;
 }
 .container section form {
     flex-direction: column;
     align-items: center;
-    margin: 7rem 0 2rem 0;
+    margin: 5rem 0 7rem 0;
 }
 .container section form input {
     outline: none;
