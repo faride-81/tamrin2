@@ -109,7 +109,7 @@ a {
 }
 
 /* footer */
-footer {
+.footer {
     flex-direction: row;
     display: flex;
     margin: 0 auto;
@@ -117,11 +117,11 @@ footer {
     justify-content: space-between;
 }
 
-footer a {
+.footer a {
     color: rgb(168, 168, 168);
 }
 
-footer a:hover {
+.footer a:hover {
     color: rgb(61, 69, 76);
 }
 
