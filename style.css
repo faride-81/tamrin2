@@ -11,7 +11,7 @@ a {
     display: flex;
 }
 
-.container {
+.background {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(./img/mountain-wallpaper-4.webp);
@@ -25,25 +25,25 @@ a {
 }
 
 /* backgroud white  */
-.container section {
-    width: 1100px;
+.background section {
+    width: 80%;
     padding: 1.5rem 3rem;
     background-color: rgba(255, 255, 255, 0.856);
 }
 
 /* header */
-.container section header {
+.background section .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.container section header h1 {
+.background section .header h1 {
     font-weight: normal;
     color: rgb(75, 97, 147);
 }
 
-.container section header .header_text {
+.background section .header .header_text {
     flex-direction: row;
     width: 130px;
     justify-content: space-between;
@@ -51,27 +51,27 @@ a {
 }
 
 /* sing in */
-.container section h2 {
+.background section h2 {
     font-size: 4rem;
     font-weight: normal;
     color: rgb(27, 60, 141);
     margin: 0 0 0.5rem 0;
 }
 
-.container section h4 {
+.background section h4 {
     color: rgb(187, 187, 187);
     width: 280px;
     margin: 0rem auto;
 }
 
 /* form */
-.container section form {
+.background section .form {
     flex-direction: column;
     align-items: center;
     margin: 4rem 0 5rem 0;
 }
 
-.container section form input {
+.background section .form input {
     outline: none;
     padding: 5px;
     border-width: 0;
@@ -81,28 +81,31 @@ a {
     border-bottom: 1px rgb(240, 240, 240) solid;
 }
 
-.container section form input:focus {
+.background section .form input:focus {
     border-bottom: rgb(61, 69, 76) solid 1px;
 }
 
-.container section form label {
+.background section .form label {
     margin: -1.5rem 0 2rem 0;
 }
 
-.container section form label a {
+.background section .form label a {
     color: rgb(168, 168, 168);
     font-size: 0.7rem;
 }
 
-.container section form button {
+.background section .form button {
     background-color: rgb(61, 69, 76);
     padding: 10px 20px;
     border: none;
     border-radius: 2px;
-}
-
-.container section form button a {
     color: white;
+    border: rgb(61, 69, 76) solid 1px;
+    cursor: pointer;
+}
+.background section .form button:hover {
+    background-color: white;
+    color: rgb(61, 69, 76);
 }
 
 /* footer */
@@ -116,4 +119,21 @@ footer {
 
 footer a {
     color: rgb(168, 168, 168);
+}
+
+footer a:hover {
+    color: rgb(61, 69, 76);
+}
+
+/* media */
+@media (max-width: 900px) {
+     /*header  */
+    .header {
+        display: none !important;
+    }
+
+    /* section */
+    .background section {
+        width: 60%;
+    }
 }
