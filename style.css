@@ -73,12 +73,11 @@ a {
 
 .background section .form input {
     outline: none;
-    padding: 5px;
     border-width: 0;
     background-color: unset;
-    margin-top: 2rem;
     color:   rgb(75, 97, 147);
     border-bottom: 1px rgb(240, 240, 240) solid;
+    margin-bottom: 1rem;
 }
 
 .background section .form input:focus {
@@ -86,7 +85,8 @@ a {
 }
 
 .background section .form label {
-    margin: -1.5rem 0 2rem 0;
+    margin: 1.5rem 0 2rem 0;
+    font-size: 0.75rem;
 }
 
 .background section .form label a {
